@@ -1,6 +1,6 @@
 {
     "name": "aura-test-conflicts",
-    "version": "7.5.1",
+    "version": "7.5.1-main-kpis-uploader-13613.1",
     "description": "A tool to import Aura locale files into the Aura (bot)",
     "bin": {
         "aura-locale-importer": "bin/aura-locale-importer"
@@ -22,9 +22,9 @@
         "test-jenkins": "mocha -r ts-node/register src/**/*.spec.ts --recursive --reporter mocha-jenkins-reporter"
     },
     "dependencies": {
-        "@telefonica/aura-configuration": "1.0.7",
-        "@telefonica/aura-logging": "1.0.7",
-        "@telefonica/aura-storage-file-manager": "6.2.1",
+        "@telefonica/aura-configuration": "main-kpis-uploader-13613",
+        "@telefonica/aura-logging": "main-kpis-uploader-13613",
+        "@telefonica/aura-storage-file-manager": "main-kpis-uploader-13613",
         "async": "^3.2.0",
         "chalk": "^4.1.1",
         "commander": "^6.2.1",
